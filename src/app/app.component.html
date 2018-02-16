@@ -1,20 +1,52 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+<div class="col-sm-12 message_section">
+  <div class="row">
+  <div class="new_message_head">
+    <div class="text-center">Angular Meetup Chat</div>
+  </div>
+  
+  <div class="chat_area">
+  <ul class="list-unstyled" *ngFor="let message of messages | async; let i=index">
+      <ng-container *ngIf="i % 2 === 0; else elseTemplate">
+          <li class="left clearfix">
+              <span class="chat-img1 pull-left">
+              <img src="https://robohash.org/{{ i }}" alt="User Avatar" class="img-circle">
+              {{ message.name }}
+              </span>
+              <div class="chat-body1 clearfix">
+                 <p class="text-right">{{ message.text }}</p>
+                 
+     <div class="chat_time pull-right">{{ message.date }}</div>
+              </div>
+        </li>
+      </ng-container>
+      <ng-template #elseTemplate>
+          <li class="left clearfix admin_chat">
+              <span class="chat-img1 pull-right">
+                  {{ message.name }}
+              <img src="https://robohash.org/{{ i }}" alt="User Avatar" class="img-circle">
+              </span>
+              <div class="chat-body1 clearfix">
+                 <p>{{ message.text }}</p>
+     <div class="chat_time pull-left">{{ message.date }}</div>
+              </div>
+           </li>
+      </ng-template>
+  </ul>
+  </div><!--chat_area-->
+       <div class="message_write">
+          <form [formGroup]="message" form (ngSubmit)="send(message.value)">
+          <label class="center-block row pull-left col-md-6 col-sm-6 col-lg-4">Name:
+                  <input type="text" required formControlName="name" class="form-control">
+          </label>
+            
+  <label class="col-md-8 col-sm-6 col-lg-6">Message:
+    <textarea class="form-control" placeholder="type a message" formControlName="text"></textarea>
+  </label>
+  <div class="clearfix"></div>
+  <div class="chat_bottom">
+<button href="#" class="pull-right btn btn-success" [disabled]="message.invalid">
+Send</button></div>
+</form>
+  </div>
+  </div>
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
-
