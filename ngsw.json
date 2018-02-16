@@ -1,18 +1,18 @@
 {
   "configVersion": 1,
-  "index": "https://stevermeister.github.io/testsw/index.html",
+  "index": "https://andrew-berezhnoy93.github.io/testsw/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "https://stevermeister.github.io/testsw/favicon.ico",
-        "https://stevermeister.github.io/testsw/index.html",
-        "https://stevermeister.github.io/testsw/inline.bfd03ffcd57d32d63f64.bundle.js",
-        "https://stevermeister.github.io/testsw/main.4e9638cb1e210e9efb0f.bundle.js",
-        "https://stevermeister.github.io/testsw/polyfills.1457c99db4b6dba06e8d.bundle.js",
-        "https://stevermeister.github.io/testsw/styles.dd2275b1d6059ae636ee.bundle.css"
+        "https://andrew-berezhnoy93.github.io/testsw/favicon.ico",
+        "https://andrew-berezhnoy93.github.io/testsw/index.html",
+        "https://andrew-berezhnoy93.github.io/testsw/inline.bfd03ffcd57d32d63f64.bundle.js",
+        "https://andrew-berezhnoy93.github.io/testsw/main.4e9638cb1e210e9efb0f.bundle.js",
+        "https://andrew-berezhnoy93.github.io/testsw/polyfills.1457c99db4b6dba06e8d.bundle.js",
+        "https://andrew-berezhnoy93.github.io/testsw/styles.dd2275b1d6059ae636ee.bundle.css"
       ],
       "patterns": []
     },
@@ -21,37 +21,37 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "https://stevermeister.github.io/testsw/assets/images/icons/android-chrome-192x192.png",
-        "https://stevermeister.github.io/testsw/assets/images/icons/android-chrome-512x512.png",
-        "https://stevermeister.github.io/testsw/assets/images/icons/apple-touch-icon.png",
-        "https://stevermeister.github.io/testsw/assets/images/icons/browserconfig.xml",
-        "https://stevermeister.github.io/testsw/assets/images/icons/favicon-16x16.png",
-        "https://stevermeister.github.io/testsw/assets/images/icons/favicon-32x32.png",
-        "https://stevermeister.github.io/testsw/assets/images/icons/favicon.ico",
-        "https://stevermeister.github.io/testsw/assets/images/icons/mstile-150x150.png",
-        "https://stevermeister.github.io/testsw/assets/images/icons/safari-pinned-tab.svg",
-        "https://stevermeister.github.io/testsw/assets/images/icons/site.webmanifest"
+        "https://andrew-berezhnoy93.github.io/testsw/assets/images/icons/android-chrome-192x192.png",
+        "https://andrew-berezhnoy93.github.io/testsw/assets/images/icons/android-chrome-512x512.png",
+        "https://andrew-berezhnoy93.github.io/testsw/assets/images/icons/apple-touch-icon.png",
+        "https://andrew-berezhnoy93.github.io/testsw/assets/images/icons/browserconfig.xml",
+        "https://andrew-berezhnoy93.github.io/testsw/assets/images/icons/favicon-16x16.png",
+        "https://andrew-berezhnoy93.github.io/testsw/assets/images/icons/favicon-32x32.png",
+        "https://andrew-berezhnoy93.github.io/testsw/assets/images/icons/favicon.ico",
+        "https://andrew-berezhnoy93.github.io/testsw/assets/images/icons/mstile-150x150.png",
+        "https://andrew-berezhnoy93.github.io/testsw/assets/images/icons/safari-pinned-tab.svg",
+        "https://andrew-berezhnoy93.github.io/testsw/assets/images/icons/site.webmanifest"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "https://stevermeister.github.io/testsw/inline.bfd03ffcd57d32d63f64.bundle.js": "57ea71442d0e13994b8a1a114e03a2cc0a383bf6",
-    "https://stevermeister.github.io/testsw/assets/images/icons/android-chrome-192x192.png": "07d64e155667663f53145fb382d3da4966d8651c",
-    "https://stevermeister.github.io/testsw/main.4e9638cb1e210e9efb0f.bundle.js": "2b5a0649e9d13fdc1e8e6aa267f6c54e9eda356f",
-    "https://stevermeister.github.io/testsw/assets/images/icons/android-chrome-512x512.png": "2d5d981d0b48b49a17529fbdde9d7687a92b45ae",
-    "https://stevermeister.github.io/testsw/polyfills.1457c99db4b6dba06e8d.bundle.js": "e29de1bb2e2b4396c66ea8deed94ff4b4b57821d",
-    "https://stevermeister.github.io/testsw/assets/images/icons/apple-touch-icon.png": "ecef45a37a972f4be7f3f67a4c94de5e6f071cb7",
-    "https://stevermeister.github.io/testsw/styles.dd2275b1d6059ae636ee.bundle.css": "d66b9adf95d02324e69725018a33c3f2ac6ed8ab",
-    "https://stevermeister.github.io/testsw/assets/images/icons/browserconfig.xml": "8e64a1ead39d4a14d530c9ee130a8daa4dc69231",
-    "https://stevermeister.github.io/testsw/favicon.ico": "88e4a0e326120feafb9dc9d1ec49a2fc5d9ccc6f",
-    "https://stevermeister.github.io/testsw/assets/images/icons/favicon-16x16.png": "6f81cf006fc759baecf1794623e5c1b563d59614",
-    "https://stevermeister.github.io/testsw/index.html": "c650fd59dceaa06ce8db22fc2bfc61dcfdbb677f",
-    "https://stevermeister.github.io/testsw/assets/images/icons/favicon-32x32.png": "70d3bd83614b6e7c604bec7089bb6e2feca1ab23",
-    "https://stevermeister.github.io/testsw/assets/images/icons/favicon.ico": "88e4a0e326120feafb9dc9d1ec49a2fc5d9ccc6f",
-    "https://stevermeister.github.io/testsw/assets/images/icons/mstile-150x150.png": "63f8bb121aaf9558dc5fbca1698e305626ce8e52",
-    "https://stevermeister.github.io/testsw/assets/images/icons/safari-pinned-tab.svg": "80fbbe7fbaeb90108f35e4744fb9de9941cb6c85",
-    "https://stevermeister.github.io/testsw/assets/images/icons/site.webmanifest": "f36abf927cc1c2d9d966b44286af077e2f3acc7d"
+    "https://andrew-berezhnoy93.github.io/testsw/inline.bfd03ffcd57d32d63f64.bundle.js": "57ea71442d0e13994b8a1a114e03a2cc0a383bf6",
+    "https://andrew-berezhnoy93.github.io/testsw/assets/images/icons/android-chrome-192x192.png": "07d64e155667663f53145fb382d3da4966d8651c",
+    "https://andrew-berezhnoy93.github.io/testsw/main.4e9638cb1e210e9efb0f.bundle.js": "2b5a0649e9d13fdc1e8e6aa267f6c54e9eda356f",
+    "https://andrew-berezhnoy93.github.io/testsw/assets/images/icons/android-chrome-512x512.png": "2d5d981d0b48b49a17529fbdde9d7687a92b45ae",
+    "https://andrew-berezhnoy93.github.io/testsw/polyfills.1457c99db4b6dba06e8d.bundle.js": "e29de1bb2e2b4396c66ea8deed94ff4b4b57821d",
+    "https://andrew-berezhnoy93.github.io/testsw/assets/images/icons/apple-touch-icon.png": "ecef45a37a972f4be7f3f67a4c94de5e6f071cb7",
+    "https://andrew-berezhnoy93.github.io/testsw/styles.dd2275b1d6059ae636ee.bundle.css": "d66b9adf95d02324e69725018a33c3f2ac6ed8ab",
+    "https://andrew-berezhnoy93.github.io/testsw/assets/images/icons/browserconfig.xml": "8e64a1ead39d4a14d530c9ee130a8daa4dc69231",
+    "https://andrew-berezhnoy93.github.io/testsw/favicon.ico": "88e4a0e326120feafb9dc9d1ec49a2fc5d9ccc6f",
+    "https://andrew-berezhnoy93.github.io/testsw/assets/images/icons/favicon-16x16.png": "6f81cf006fc759baecf1794623e5c1b563d59614",
+    "https://andrew-berezhnoy93.github.io/testsw/index.html": "b9f23dbcc5a211a1facdb46f62d09a0b34d284c3",
+    "https://andrew-berezhnoy93.github.io/testsw/assets/images/icons/favicon-32x32.png": "70d3bd83614b6e7c604bec7089bb6e2feca1ab23",
+    "https://andrew-berezhnoy93.github.io/testsw/assets/images/icons/favicon.ico": "88e4a0e326120feafb9dc9d1ec49a2fc5d9ccc6f",
+    "https://andrew-berezhnoy93.github.io/testsw/assets/images/icons/mstile-150x150.png": "63f8bb121aaf9558dc5fbca1698e305626ce8e52",
+    "https://andrew-berezhnoy93.github.io/testsw/assets/images/icons/safari-pinned-tab.svg": "80fbbe7fbaeb90108f35e4744fb9de9941cb6c85",
+    "https://andrew-berezhnoy93.github.io/testsw/assets/images/icons/site.webmanifest": "f36abf927cc1c2d9d966b44286af077e2f3acc7d"
   }
 }
