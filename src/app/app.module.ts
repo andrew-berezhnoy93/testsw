@@ -11,9 +11,9 @@ import { environment } from '../environments/environment';
   declarations: [AppComponent],
   imports: [
     BrowserModule,
-    ServiceWorkerModule.register('/ngsw-worker.js', {
-      enabled: environment.production
-    }),
+    environment.production
+      ? ServiceWorkerModule.register('/ngsw-worker.js')
+      : [],
     AngularFireModule.initializeApp({
       apiKey: 'AIzaSyDmlg--76FbxpO5CS-NaMgV9XyT7OfCfGA',
       authDomain: 'ngsw-firechat.firebaseapp.com',
